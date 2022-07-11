@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <div id="home"></div>
+     <header class="front vh-100 row w-100 justify-content-center align-items-center">
+         <div class="col-1  reveal fade-forward">D</div><div class=" col-1 reveal fade-forward2">I</div><div class="col-1 reveal fade-forward3">C</div><div class="col-1  reveal fade-forward4">O</div><div class="col-1 reveal fade-forward5">M</div>
+     </header>
+     <nav id="navbar-example2" class="navbar sticky-top px-3">
+        <a class="navbar-brand" href="#home">DICOM</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">content</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#what">What is Dicom?</a></li>
+              <li><a class="dropdown-item" href="#history">History</a></li>
+              <li><a class="dropdown-item" href="#applications">Applications</a></li>
+              <li><a class="dropdown-item" href="#fileformat">File Format</a></li>
+              <li><a class="dropdown-item" href="#services">Service & classes</a></li>
+              <li><a class="dropdown-item" href="#about">About Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Logout</a>
+          </li>
+        </ul>
+     </nav>
+     <main>
+         <div id="what"></div>
+         <section class="main ms-3 vh-100 reveal">
+      <div class=" reveal row w-100 justify-content-center align-items-center h-100">
+          <div class="page1">
+             <h2>What Is DICOM?</h2>
+             <p>DICOM (Digital Imaging and Communications in Medicine) is a standard protocol for the management and transmission of medical images and related data and is used in many healthcare facilities.</p>
+          </div>
+          <div id="history"></div>
+      </div>
+         </section>
+         <section class="main vh-100">
+      <div class="container">
+          <div class="row w-100 align-items-center justify-content-center">
+              <div class="col-6 reveal fade-left" id="hist"><h1 id="histhead">DICOM'S History</h1><p> is a standard developed by the American College of Radiology (ACR) and National Electrical Manufacturers Association (NEMA). It started in the 1980s and in 1988 the second version was released. The first large-scale deployment of ACR/NEMA technology was made in 1992 by the US Army and Air Force. Loral Aerospace and Siemens Medical Systems led a consortium of companies in deploying the first US military PACS (Picture Archiving and Communications System). In 1993 the third version of the standard was released. Its name was then changed to "DICOM." New service classes were defined, network support was added and the Conformance Statement was introduced to establish the basic DICOM communication protocols for query or retrieval, storage and print classes. Officially, the latest version of the standard is still 3.0, it has been constantly updated and extended since 1993.</p></div> 
+              <div class="col-6 reveal fade-right"><img class="b" src="b.png"></div> 
+          </div> 
+      </div>
+      <div id="applications"></div>
+         </section>
+         <section class="main vh-100">
+      <div class="container reveal fade-forward">
+         <div class="row w-100"  id="app">
+             <h1>Applications Of DICOM</h1>
+             <p>The DICOM Standard pertains to the field of Medical Informatics. Within that field, it addresses the exchange of digital information between medical imaging equipment and other systems. Because such equipment may interoperate with other medical devices and information systems, the scope of this Standard needs to overlap with other areas of medical informatics. However, the DICOM Standard does not address the breadth of this field.
+                This Standard has been developed with an emphasis on diagnostic medical imaging as practiced in radiology, cardiology, pathology, dentistry, ophthalmology and related disciplines, and image-based therapies such as interventional radiology, radiotherapy and surgery. However, it is also applicable to a wide range of image and non-image related information exchanged in clinical, research, veterinary, and other medical environments.
+                This Standard facilitates interoperability of systems claiming conformance in a multi-vendor environment, but does not, by itself, guarantee interoperability.
+             </p>
+         </div>
+      </div>
+      <div id="fileformat"></div>
+         </section>
+         <section class="main reveal fade-forward vh-100" id="file">
+      <div class="container">
+          <div class="row">
+         <h2 class="col-6"> DICOM File Format</h2>
+         <div class="col-6">
+         <div class="row justify-content-center">
+             <div class="content col-5 me-1">                
+                  <h6>DICOM file Head</h6>
+                  <ul>
+                     <li>the patient's name / id</li>
+                     <li>type of media (CT, MRI,audio recording)</li>
+                     <li>image dimensions.</li>
+                  </ul>
+             </div>
+             <div class=" content col-5">
+                <h6>DICOM file Body</h6>
+                <ul>
+                    <li>medical reports</li>
+                    <li>audio recordings</li>
+                    <li>images</li>
+                </ul>
+             </div>
+         </div>
+         <div class="row justify-content-center">
+            <div id="carouselExampleControls" class="carousel slide col-xl-12 col-lg-10 col-md-12 col-sm-12 " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="dicom_markup.gif" class="img d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Picture1.png" class="img d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="8uMLE.jpg" class="img d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+         </div>
+        </div>
+          </div>
+      </div>
+      <div id="services"></div>
+         </section>
+         <section class="main vh-100 reveal fade-forward" id="sc">
+            <div class="row w-100">
+                <div class="col-12">
+                    <h1>Services & Classes</h1>
+                </div>
+            </div>
+             <div class="row w-100">
+                 <div class="content col-12">
+                     <p>PS3.4 of the DICOM Standard defines a number of Service Classes. A Service Class associates one or more Information Objects with one or more Commands to be performed upon these objects. Service Class Specifications state requirements for Command Elements and how resulting Commands are applied to Information Objects. Service Class Specifications state requirements for both providers and users of communications services.</p>
+                     <p>PS3.4 of the DICOM Standard defines the characteristics shared by all Service Classes, and how a Conformance Statement to an individual Service Class is structured. It contains a number of normative annexes that describe individual Service Classes in detail.</p>
+                        <p> of Service Classes include the following:</p>
+                        <ul>
+                            <li>Storage Service Class</li>
+                            <li>Query/Retrieve Service Class</li>
+                            <li>Basic Worklist Management Service Class</li>
+                            <li>Print Management Service Class.</li>
+                        </ul>
+                        <p> defines the operations performed upon the Information Objects defined in PS3.3. PS3.7 defines the Commands and protocols for using the Commands to accomplish the operations and notifications described in PS3.4.</p>
+                 </div>
+             </div>
+      <div id="about"></div>
+         </section>
+         <section class="main vh-100 reveal" id="abtus">
+      <div class="container reveal">
+         <div class="row align-items-center">
+             <div class="col-6">
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus vitae asperiores rerum hic. Totam corrupti harum eligendi. Distinctio ipsa numquam qui harum, exercitationem, vel rerum voluptate deleniti nisi earum soluta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a suscipit exercitationem voluptatem laborum reiciendis? Excepturi dolore quam magnam voluptatibus, tempore sapiente assumenda, libero hic, similique eligendi dignissimos maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident iste neque ipsa voluptate voluptates maiores quod, repellendus deserunt aspernatur officia deleniti maxime omnis sit minus ipsam aut exercitationem beatae ullam. </p>
+             </div>
+             <div class="col-6">
+                 <h1>About Us</h1>
+             </div>
+         </div>
+      </div>
+         </section>
+     </main>
+     <script src="scroll.js"></script>
+     <script src="bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

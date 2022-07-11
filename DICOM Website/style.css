@@ -1,0 +1,261 @@
+.front div{
+    font-size: 72px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(225deg, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    opacity: 0.9;
+}
+.navbar-brand{
+    background: -webkit-linear-gradient(225deg, #ff5ea7 36.04%, #010fcb 88.83%, #ff6530 220.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: x-large;
+}
+.page1{
+    background: -webkit-linear-gradient(225deg, #ff5ea7 50.04%, #010fcb 88.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.page1 h2{
+    font-weight:900;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+.era{
+    overflow: hidden;
+}
+.b{
+    width: 100%;
+    height: 100%;
+}
+.active.fade-left {
+    animation: fade-left .4s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right .4s ease-in;
+  }
+  .active.fade-forward {
+    animation: fade-forward .4s ease-in;
+  }
+  .active.fade-forward2 {
+    animation: fade-forward 1.2s ease-in;
+  }
+  .active.fade-forward3 {
+    animation: fade-forward 1.6s ease-in;
+  }
+  .active.fade-forward4 {
+    animation: fade-forward 2s ease-in;
+  }
+  .active.fade-forward5 {
+    animation: fade-forward 2.4s ease-in;
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-forward {
+    0% {
+      transform: translateZ(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-forward2 {
+    0% {
+      transform: translateZ(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-forward3 {
+    0% {
+      transform: translateZ(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-forward4 {
+    0% {
+      transform: translateZ(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-forward5 {
+    0% {
+      transform: translateZ(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+  #hist p{
+    color: #a1a1a6;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  #histhead{
+    background: -webkit-linear-gradient(225deg, #ff6530 50.04%, #b30404 88.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 60px;
+  }
+#app h1{
+    background: -webkit-linear-gradient(225deg, #2ff0af 50.04%, #33e942 88.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 74px;
+}
+#app p{
+    color: #a1a1a6;
+    font-size: 25px;
+    font-weight: 500;
+}
+#file .content{
+    color: #a1a1a6;
+    font-size: 20px;
+    font-weight: 500;
+}
+#file h2{
+    background: -webkit-linear-gradient(225deg, #1809e4 50.04%, #d1f13e 88.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 140px;
+}
+.carousel-item{
+    height: 300px;
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+h6{
+    font-size: 30px;
+    color: rgb(44, 78, 228);
+}
+#sc h1{
+    background: -webkit-linear-gradient(225deg, #5ef06a 50.04%, White 88.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 140px;
+}
+#sc p{
+    color: #a1a1a6;
+    font-size: 20px;
+    font-weight: 500;
+}
+#sc ul{
+    color: #a1a1a6;
+    font-size: 20px;
+    font-weight: 500;
+}
+#abtus h1{
+    background: -webkit-linear-gradient(225deg, #cc0808 50.04%, rgb(190, 25, 141) 88.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 180px;
+}
+#abtus p{
+  color: #a1a1a6;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px){
+ #hist p, #app p, #sc ul, #sc p, #file .content{
+   font-size: 13px;
+ }
+ #histhead, #app h1, #file h2, #abtus h1, .page1 h2{
+  font-size: 50px;
+}
+#sc h1{
+  font-size: 80px;
+}
+#abtus p{
+  font-size: 18px;
+}
+.page1 p{
+  font-size: 20px;
+}
+.col-{
+  padding-block:10px;
+}
+
+.front div{
+  font-size: 65;
+}
+
+}
+@media screen and (max-width: 768px){
+  #hist p, #app p, #sc ul, #sc p, #file .content, #abtus p{
+    font-size: 12px;
+  }
+  #histhead, #app h1, #file h2, #sc h1, #abtus h1, .page1 h2{
+    font-size: 25px;
+ }
+ .col-{
+   padding-block:5px;
+ }
+
+ .front div{
+   font-size: 32;
+ }
+ .page1 p{
+   font-size: 20px;
+ }
+ 
+}
